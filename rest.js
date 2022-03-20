@@ -4,9 +4,14 @@ var express = require("express");
 var app = express(); //convert express to app
 app.use(express.json()); //for conversion
 
+const cors = require('cors');
+app.use(cors()); //used for policy
+
 var fs = require("fs"); //file system module
 const http = require("http");
 const Joi = require("joi"); //for input validation
+
+const bodyParser = require('body-parser');
 
 //DATABASE
 const mongoose = require("mongoose");

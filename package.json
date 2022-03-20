@@ -1,7 +1,6 @@
 {
   "name": "restapi",
   "version": "1.0.0",
-  "description": "",
   "main": "rest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +8,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "http": "^0.0.1-security",
     "joi": "^17.6.0",
     "mongodb": "^4.4.1",
     "mongoose": "^6.2.7",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimit25/RESTAPIMONGODBNODEEXPRESS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaimit25/RESTAPIMONGODBNODEEXPRESS/issues"
+  },
+  "homepage": "https://github.com/jaimit25/RESTAPIMONGODBNODEEXPRESS#readme",
+  "description": ""
 }
